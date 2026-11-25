@@ -1,0 +1,595 @@
+{
+  "fields": [
+    {
+      "id": "F1",
+      "farm": "A",
+      "crop": "稻谷",
+      "area_ha": 11,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F2",
+      "farm": "A",
+      "crop": "大豆",
+      "area_ha": 12,
+      "from": "2026-04-01",
+      "to": "2026-07-31"
+    },
+    {
+      "id": "F3",
+      "farm": "A",
+      "crop": "稻谷",
+      "area_ha": 13,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F4",
+      "farm": "A",
+      "crop": "大豆",
+      "area_ha": 14,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F5",
+      "farm": "B",
+      "crop": "稻谷",
+      "area_ha": 15,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F6",
+      "farm": "B",
+      "crop": "大豆",
+      "area_ha": 16,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F7",
+      "farm": "B",
+      "crop": "稻谷",
+      "area_ha": 17,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F8",
+      "farm": "B",
+      "crop": "大豆",
+      "area_ha": 18,
+      "from": "2026-04-01",
+      "to": null
+    },
+    {
+      "id": "F9",
+      "farm": "A",
+      "crop": "大豆",
+      "area_ha": 5,
+      "from": "2026-08-01",
+      "to": null
+    },
+    {
+      "id": "F10",
+      "farm": "A",
+      "crop": "大豆",
+      "area_ha": 7,
+      "from": "2026-08-01",
+      "to": null
+    }
+  ],
+  "rights": [
+    {
+      "id": "R1",
+      "field_id": "F1",
+      "holder": "分场甲",
+      "share": 0.6,
+      "from": "2026-04-01",
+      "to": "2026-09-30"
+    },
+    {
+      "id": "R2",
+      "field_id": "F1",
+      "holder": "分场乙",
+      "share": 0.4,
+      "from": "2026-04-01",
+      "to": "2026-09-30"
+    }
+  ],
+  "history": [
+    {
+      "id": "H2023-1",
+      "season": 2023,
+      "farm": "A",
+      "field_id": "F1",
+      "crop": "稻谷",
+      "area_ha": 11,
+      "growth": 0.48,
+      "survey_t_per_ha": 3.2,
+      "harvest_t": 36.080000000000005,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-2",
+      "season": 2023,
+      "farm": "A",
+      "field_id": "F2",
+      "crop": "大豆",
+      "area_ha": 12,
+      "growth": 0.51,
+      "survey_t_per_ha": 3.4,
+      "harvest_t": 41.519999999999996,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-3",
+      "season": 2023,
+      "farm": "A",
+      "field_id": "F3",
+      "crop": "稻谷",
+      "area_ha": 13,
+      "growth": 0.54,
+      "survey_t_per_ha": 3.6,
+      "harvest_t": 47.32,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-4",
+      "season": 2023,
+      "farm": "A",
+      "field_id": "F4",
+      "crop": "大豆",
+      "area_ha": 14,
+      "growth": 0.5700000000000001,
+      "survey_t_per_ha": 3.8,
+      "harvest_t": 53.480000000000004,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-5",
+      "season": 2023,
+      "farm": "B",
+      "field_id": "F5",
+      "crop": "稻谷",
+      "area_ha": 15,
+      "growth": 0.6,
+      "survey_t_per_ha": 4.0,
+      "harvest_t": 60.0,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-6",
+      "season": 2023,
+      "farm": "B",
+      "field_id": "F6",
+      "crop": "大豆",
+      "area_ha": 16,
+      "growth": 0.63,
+      "survey_t_per_ha": 4.2,
+      "harvest_t": 66.88,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-7",
+      "season": 2023,
+      "farm": "B",
+      "field_id": "F7",
+      "crop": "稻谷",
+      "area_ha": 17,
+      "growth": 0.66,
+      "survey_t_per_ha": 4.4,
+      "harvest_t": 74.12,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2023-8",
+      "season": 2023,
+      "farm": "B",
+      "field_id": "F8",
+      "crop": "大豆",
+      "area_ha": 18,
+      "growth": 0.69,
+      "survey_t_per_ha": 4.6,
+      "harvest_t": 81.72,
+      "growth_known": "2023-07-15",
+      "harvest_known": "2023-10-15"
+    },
+    {
+      "id": "H2024-1",
+      "season": 2024,
+      "farm": "A",
+      "field_id": "F1",
+      "crop": "稻谷",
+      "area_ha": 11,
+      "growth": 0.48,
+      "survey_t_per_ha": 3.2,
+      "harvest_t": 38.080000000000005,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-2",
+      "season": 2024,
+      "farm": "A",
+      "field_id": "F2",
+      "crop": "大豆",
+      "area_ha": 12,
+      "growth": 0.51,
+      "survey_t_per_ha": 3.4,
+      "harvest_t": 43.519999999999996,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-3",
+      "season": 2024,
+      "farm": "A",
+      "field_id": "F3",
+      "crop": "稻谷",
+      "area_ha": 13,
+      "growth": 0.54,
+      "survey_t_per_ha": 3.6,
+      "harvest_t": 49.32,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-4",
+      "season": 2024,
+      "farm": "A",
+      "field_id": "F4",
+      "crop": "大豆",
+      "area_ha": 14,
+      "growth": 0.5700000000000001,
+      "survey_t_per_ha": 3.8,
+      "harvest_t": 55.480000000000004,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-5",
+      "season": 2024,
+      "farm": "B",
+      "field_id": "F5",
+      "crop": "稻谷",
+      "area_ha": 15,
+      "growth": 0.6,
+      "survey_t_per_ha": 4.0,
+      "harvest_t": 62.0,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-6",
+      "season": 2024,
+      "farm": "B",
+      "field_id": "F6",
+      "crop": "大豆",
+      "area_ha": 16,
+      "growth": 0.63,
+      "survey_t_per_ha": 4.2,
+      "harvest_t": 68.88,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-7",
+      "season": 2024,
+      "farm": "B",
+      "field_id": "F7",
+      "crop": "稻谷",
+      "area_ha": 17,
+      "growth": 0.66,
+      "survey_t_per_ha": 4.4,
+      "harvest_t": 76.12,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2024-8",
+      "season": 2024,
+      "farm": "B",
+      "field_id": "F8",
+      "crop": "大豆",
+      "area_ha": 18,
+      "growth": 0.69,
+      "survey_t_per_ha": 4.6,
+      "harvest_t": 83.72,
+      "growth_known": "2024-07-15",
+      "harvest_known": "2024-10-15"
+    },
+    {
+      "id": "H2025-1",
+      "season": 2025,
+      "farm": "A",
+      "field_id": "F1",
+      "crop": "稻谷",
+      "area_ha": 11,
+      "growth": 0.48,
+      "survey_t_per_ha": 3.2,
+      "harvest_t": 40.080000000000005,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-2",
+      "season": 2025,
+      "farm": "A",
+      "field_id": "F2",
+      "crop": "大豆",
+      "area_ha": 12,
+      "growth": 0.51,
+      "survey_t_per_ha": 3.4,
+      "harvest_t": 45.519999999999996,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-3",
+      "season": 2025,
+      "farm": "A",
+      "field_id": "F3",
+      "crop": "稻谷",
+      "area_ha": 13,
+      "growth": 0.54,
+      "survey_t_per_ha": 3.6,
+      "harvest_t": 51.32,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-4",
+      "season": 2025,
+      "farm": "A",
+      "field_id": "F4",
+      "crop": "大豆",
+      "area_ha": 14,
+      "growth": 0.5700000000000001,
+      "survey_t_per_ha": 3.8,
+      "harvest_t": 57.480000000000004,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-5",
+      "season": 2025,
+      "farm": "B",
+      "field_id": "F5",
+      "crop": "稻谷",
+      "area_ha": 15,
+      "growth": 0.6,
+      "survey_t_per_ha": 4.0,
+      "harvest_t": 64.0,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-6",
+      "season": 2025,
+      "farm": "B",
+      "field_id": "F6",
+      "crop": "大豆",
+      "area_ha": 16,
+      "growth": 0.63,
+      "survey_t_per_ha": 4.2,
+      "harvest_t": 70.88,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-7",
+      "season": 2025,
+      "farm": "B",
+      "field_id": "F7",
+      "crop": "稻谷",
+      "area_ha": 17,
+      "growth": 0.66,
+      "survey_t_per_ha": 4.4,
+      "harvest_t": 78.12,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    },
+    {
+      "id": "H2025-8",
+      "season": 2025,
+      "farm": "B",
+      "field_id": "F8",
+      "crop": "大豆",
+      "area_ha": 18,
+      "growth": 0.69,
+      "survey_t_per_ha": 4.6,
+      "harvest_t": 85.72,
+      "growth_known": "2025-07-15",
+      "harvest_known": "2025-10-15"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O1",
+      "field_ids": [
+        "F1"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.5800000000000001,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O2",
+      "field_ids": [
+        "F2"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.6100000000000001,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O3",
+      "field_ids": [
+        "F3",
+        "F4"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.64,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O4",
+      "field_ids": [
+        "F4"
+      ],
+      "date": "2026-07-15",
+      "growth": null,
+      "cloud": true,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O5",
+      "field_ids": [
+        "F5"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.7000000000000001,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O6",
+      "field_ids": [
+        "F6",
+        "F7"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.73,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O7",
+      "field_ids": [
+        "F7"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.76,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    },
+    {
+      "id": "O8",
+      "field_ids": [
+        "F8"
+      ],
+      "date": "2026-07-15",
+      "growth": 0.79,
+      "cloud": false,
+      "known_at": "2026-07-16"
+    }
+  ],
+  "estimates": [
+    {
+      "id": "E1",
+      "scope": "农场A",
+      "season": 2026,
+      "tonnes": 340,
+      "known_at": "2026-08-01"
+    },
+    {
+      "id": "E2",
+      "scope": "F1",
+      "season": 2026,
+      "tonnes": 44,
+      "known_at": "2026-08-02"
+    }
+  ],
+  "harvests": [
+    {
+      "id": "W1",
+      "field_id": "F1",
+      "area_ha": 3,
+      "tonnes": 11,
+      "at": "2026-09-10",
+      "known_at": "2026-09-10",
+      "supersedes": null
+    },
+    {
+      "id": "W2",
+      "field_id": "F1",
+      "area_ha": 3,
+      "tonnes": 10.5,
+      "at": "2026-09-10",
+      "known_at": "2026-09-12",
+      "supersedes": "W1"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "C1",
+      "seller": "总场",
+      "crop": "稻谷",
+      "tonnes": 80,
+      "grade": "一等",
+      "window": "2026-09-15/2026-09-30",
+      "status": "已接受"
+    },
+    {
+      "id": "C2",
+      "seller": "分场甲",
+      "crop": "稻谷",
+      "tonnes": 40,
+      "grade": "一等",
+      "window": "2026-09-15/2026-09-30",
+      "status": "草稿"
+    }
+  ],
+  "dryers": [
+    {
+      "id": "D1",
+      "holders": [
+        "分场甲",
+        "分场乙",
+        "总场"
+      ],
+      "window": "2026-09-15/2026-09-30",
+      "tonnes": 130
+    }
+  ],
+  "boundary_changes": [
+    {
+      "id": "BC1",
+      "parent": "F2",
+      "children": [
+        {
+          "id": "F9",
+          "area_ha": 5
+        },
+        {
+          "id": "F10",
+          "area_ha": 7
+        }
+      ],
+      "effective": "2026-08-01",
+      "known_at": "2026-08-10"
+    }
+  ],
+  "grade_checks": [
+    {
+      "id": "GC1",
+      "field_id": "F1",
+      "harvest_id": "W1",
+      "grade": "一等",
+      "known_at": "2026-09-11"
+    }
+  ]
+}

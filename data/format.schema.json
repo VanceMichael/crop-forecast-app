@@ -1,0 +1,579 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "boundary_changes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "children": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "object"
+              ],
+              "properties": {
+                "area_ha": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "area_ha",
+                "id"
+              ],
+              "additionalProperties": true
+            }
+          },
+          "effective": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "parent": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "children",
+          "effective",
+          "id",
+          "known_at",
+          "parent"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "contracts": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "crop": {
+            "type": [
+              "string"
+            ]
+          },
+          "grade": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "seller": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "tonnes": {
+            "type": [
+              "number"
+            ]
+          },
+          "window": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "crop",
+          "grade",
+          "id",
+          "seller",
+          "status",
+          "tonnes",
+          "window"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "dryers": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "holders": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "tonnes": {
+            "type": [
+              "number"
+            ]
+          },
+          "window": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "holders",
+          "id",
+          "tonnes",
+          "window"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "estimates": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "scope": {
+            "type": [
+              "string"
+            ]
+          },
+          "season": {
+            "type": [
+              "number"
+            ]
+          },
+          "tonnes": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "known_at",
+          "scope",
+          "season",
+          "tonnes"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "fields": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "area_ha": {
+            "type": [
+              "number"
+            ]
+          },
+          "crop": {
+            "type": [
+              "string"
+            ]
+          },
+          "farm": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "to": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "area_ha",
+          "crop",
+          "farm",
+          "from",
+          "id",
+          "to"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "grade_checks": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "field_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "grade": {
+            "type": [
+              "string"
+            ]
+          },
+          "harvest_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "field_id",
+          "grade",
+          "harvest_id",
+          "id",
+          "known_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "harvests": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "area_ha": {
+            "type": [
+              "number"
+            ]
+          },
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "field_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "supersedes": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "tonnes": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "area_ha",
+          "at",
+          "field_id",
+          "id",
+          "known_at",
+          "supersedes",
+          "tonnes"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "history": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "area_ha": {
+            "type": [
+              "number"
+            ]
+          },
+          "crop": {
+            "type": [
+              "string"
+            ]
+          },
+          "farm": {
+            "type": [
+              "string"
+            ]
+          },
+          "field_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "growth": {
+            "type": [
+              "number"
+            ]
+          },
+          "growth_known": {
+            "type": [
+              "string"
+            ]
+          },
+          "harvest_known": {
+            "type": [
+              "string"
+            ]
+          },
+          "harvest_t": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "season": {
+            "type": [
+              "number"
+            ]
+          },
+          "survey_t_per_ha": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "area_ha",
+          "crop",
+          "farm",
+          "field_id",
+          "growth",
+          "growth_known",
+          "harvest_known",
+          "harvest_t",
+          "id",
+          "season",
+          "survey_t_per_ha"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "observations": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "cloud": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "field_ids": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "growth": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "cloud",
+          "date",
+          "field_ids",
+          "growth",
+          "id",
+          "known_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "rights": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "field_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "holder": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "share": {
+            "type": [
+              "number"
+            ]
+          },
+          "to": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "field_id",
+          "from",
+          "holder",
+          "id",
+          "share",
+          "to"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "boundary_changes",
+    "contracts",
+    "dryers",
+    "estimates",
+    "fields",
+    "grade_checks",
+    "harvests",
+    "history",
+    "observations",
+    "rights"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "地块产量预测的层级核对与预售敞口合成资料格式"
+}
